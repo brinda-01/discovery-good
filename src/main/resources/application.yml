@@ -1,0 +1,13 @@
+server:
+  port: 8671
+spring:
+  application:
+    name: easylife-app-discovery
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  instance:
+    hostname: localhost
+
+
